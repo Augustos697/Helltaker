@@ -1,0 +1,142 @@
+@charset "UTF-8";
+:root{
+    --cor0:#F74A5C;
+    --cor1:#B96F76;
+    --cor2:#AB343F;
+    --cor3:#F7949E;
+    --cor4:#78242C;
+    --font_normal:arial,helvetica,sans-serif;
+    --font_destaque:serif
+
+}
+
+body{
+    background-color:var(--cor2);
+    font-family: var(--font_normal);
+    font-size: large;
+    
+  
+}
+header{
+    font-family: var(--font_destaque);
+    background-color: var(--cor2);
+    color: rgb(224, 224, 224);
+    margin: auto;
+    text-align: left;
+   
+    
+}
+#logo{
+    width: 200px;
+    height: 300px;
+   
+    margin-left: 470px;
+    border-radius: 50px;
+}
+
+nav{
+    background-color: var(--cor0);
+    text-align: right;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.425);
+    padding: 10px 0px;
+    margin: 0px -8px;
+    font-family: var(--font_destaque);
+}
+nav > p > a {
+    color: rgb(224, 224, 224);
+}
+nav:hover{
+    color: rgb(133, 129, 129);
+    
+}
+h1{
+    font-family: serif;
+}
+main{
+    background-color: var(--cor3);
+    border-radius: 0px 0px 10px 10px;
+    padding: 10px 20px;
+    text-align: justify;
+    line-height: 1.5;
+    min-width: 400px;
+    max-width: 800px;
+    height: auto;
+    margin: auto;
+}
+
+#personagens{
+    text-align: center;
+}
+div{
+    
+}
+ul {
+    line-height: 40px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    margin: 0px 10px 0px 0px;
+    font-family: var(--font_destaque);
+    font-weight: 900;
+}
+nav a:hover{
+    color:rgb(58, 55, 55);
+    background-color: rgba(255, 255, 255, 0.137);
+    padding: 28px 10px ;
+}
+
+div{
+    min-width: 100px;
+    max-width: 800px;
+    height: auto;
+}
+div > img {
+    width: 200px;
+    margin-left: 490px;
+    border-style: solid;
+   
+ 
+}
+#txtimg{
+    position:absolute;
+    word-wrap:break-word;
+    width: 450px;
+    
+}
+
+footer{
+    background-color: rgb(168, 5, 5);
+    padding: 5px;
+    margin: -8px;
+    /*margin: 500px -10px;*/
+    text-align: center;
+    color: rgb(224, 224, 224);
+}
+
+/*#glo.is-animating{
+    animation: loading ;
+}
+@keyframes loading{
+    50%{
+        transform: rotate(180deg);
+    }
+}
+
+
+/* quando voltar 
+- paleta de cores
+- site responsivel 
+- tipografia */
+
+/* Mais pra frente
+- INTEREÇÃO 
+- COMENTARIOS 
+- POSTES
+- PESQUISAR 
+- modo noturno 
+
+/* Futuro
+- verificação de gmail
+- verificação de telefone 
+- intereção como no dicord */
